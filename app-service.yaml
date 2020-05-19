@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: app
+  name: app
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 11180
+  selector:
+    app: app
+  sessionAffinity: None
+  type: LoadBalancer
