@@ -39,5 +39,5 @@ spec:
           successThreshold: 1
           timeoutSeconds: 1
         ports:
-        - containerPort: 11180
+        - containerPort: 11130
 
