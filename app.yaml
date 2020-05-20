@@ -15,6 +15,7 @@ spec:
       labels:
         app: app
     spec:
+      imagePullPolicy: Always
       containers:
       - name: app
         image: ctonur/hello-hepsi:latest
