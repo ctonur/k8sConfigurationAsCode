@@ -18,7 +18,7 @@ spec:
       imagePullPolicy: Always
       containers:
       - name: app
-        image: ctonur/hello-hepsi:latest
+        image: ctonur/hello:latest
         readinessProbe:
           failureThreshold: 2
           httpGet:
