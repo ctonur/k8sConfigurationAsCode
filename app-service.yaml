@@ -8,7 +8,7 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    targetPort: 11180
+    targetPort: 11130
   selector:
     app: app
   sessionAffinity: None
