@@ -22,7 +22,7 @@ spec:
           failureThreshold: 2
           httpGet:
             path: /
-            port: 11180
+            port: 11130
             scheme: HTTP
           initialDelaySeconds: 2
           periodSeconds: 2
@@ -32,7 +32,7 @@ spec:
           failureThreshold: 3
           httpGet:
             path: /
-            port: 11180
+            port: 11130
             scheme: HTTP
           initialDelaySeconds: 5
           periodSeconds: 10
