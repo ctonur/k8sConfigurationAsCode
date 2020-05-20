@@ -15,7 +15,6 @@ spec:
       labels:
         app: app
     spec:
-      imagePullPolicy: Always
       containers:
       - name: app
         image: ctonur/hello:latest
@@ -41,4 +40,5 @@ spec:
           timeoutSeconds: 1
         ports:
         - containerPort: 11130
+        imagePullPolicy: Always
 
